@@ -1,0 +1,630 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+body{
+    background-color: #F3EEEB;
+
+}
+.navbar{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.logo{
+    color: #1d0d21;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: cursive;
+    transition: 0.3s ease-in;
+}
+.logo:hover{
+    color: #FF5733;
+    transform: skewX(15deg);
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin: 0px 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #1d0d21;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s ease-in;
+}
+.navbar ul li a:hover{
+    color: #FF5733;
+}
+.section-1{
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 96vw;
+    height: 80vh;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.content-1{
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 80%;
+}
+.content-1 h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    text-align: center;
+    color: #1d0d21;
+}
+.content-1 p{
+    font-size: 15px;
+    color: #88827E;
+    text-align: center;
+    
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #FF5733;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: cursive;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.btn:hover{
+    transform: scale(1.02);
+}
+.img-1{
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 80vh;
+}
+.img-1 img{
+    width: 70%;
+}
+.box-1{
+    position: absolute;
+    /* background-color: #FF5733; */
+    background-color: #9E1EBA;
+    border-radius: 10px;
+    width: 110px;
+    height: 40px;
+    top: 80%;
+    left: 50%;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    transition: 0.5s ease-in;
+}
+.box-1:hover{
+    transform: translate(3px, 3px);
+}
+.box-1 h1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box-1 p{
+    font-size: 10px; 
+}
+.box-2{
+    position: absolute;
+    background-color: #FF5733;
+    /* background-color: #9E1EBA; */
+    border-radius: 10px;
+    width: 85px;
+    height: 50px;
+    top: 10%;
+    left: 75%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    transition: 0.5s ease-in;
+}
+.box-2:hover{
+    transform: translate(3px, 3px);
+}
+.fa-person-walking{
+    font-size: 20px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.box-2 h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+text-align: left;
+margin-top: 10px;
+}
+.km{
+   position: absolute;
+   bottom: 3px;
+   right: 8px;
+   font-size: 15px;
+}
+.section-2{
+    background-color: #cbc7c5;
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 97vw;
+    height: 80vh;
+    padding: 8px;   
+}
+.gallery{
+    /* border: 1px solid black; */
+    width: 98%;
+    height: 45%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.items{
+    /* border: 1px solid black; */
+    width: 32%;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s ease-out;
+}
+.items:hover{
+    filter: grayscale(70%);
+    scale: 1.02;
+}
+.item-1{
+    background-image: url(https://img.freepik.com/free-photo/young-healthy-man-athlete-posing-confident-with-ropes-gym_155003-32053.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.item-2{
+    background-image: url(https://img.freepik.com/free-photo/powerful-stylish-bodybuilder-with-tattoo-his-arm-doing-exercises-biceps-with-dumbbells-looking-camera-isolated-dark-background_613910-5257.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.item-3{
+    background-image: url(https://img.freepik.com/premium-photo/portrait-muscled-athlete-bodybuilder-workouts-alone-sport-gym-indoors_489646-18891.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.gallery-2{
+    /* border: 1px solid black; */
+    width: 98%;
+    height: 45%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.items2{
+    /* border: 1px solid black; */
+    width: 48%;
+    height: 90%;
+    transition: 0.5s ease-out;
+}
+.items2:hover{
+    filter: grayscale(70%);
+    scale: 1.02;
+}
+.item-4{
+    background-image: url(https://img.freepik.com/premium-photo/full-length-shot-sportsman-doing-squats-with-medicine-ball_130388-3855.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+}
+.item-5{
+    background-image: url(https://img.freepik.com/free-photo/athletic-man-woman-with-dumbbells_155003-11801.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.section-3{
+    /* background-color: #88827E; */
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    width: 96vw;
+    height: 80vh;
+    padding: 8px;   
+}
+.section-3 h1{
+    text-align: center;
+    font-size: 40px;
+    color: #1d0d21;
+    margin-top: 10px;
+}
+.carts{
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 98%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cart{
+    /* border: 1px solid black; */
+    background-color: #cbc7c5;
+    width: 25%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s ease-in;
+    
+}
+.cart:hover{
+    transform: scale(1.02);
+}
+.cart img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+}
+.icon{
+    text-align: center;
+    margin-top: 10px;
+    color: #F6C805;
+    cursor: pointer;
+}
+.cart p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.chk-btn{
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.chk-btn:hover{
+    transform: scale(1.02);
+}
+.pricing{
+    /* background-color: #88827E; */
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    width: 96vw;
+    height: 70vh;
+    padding: 8px; 
+}
+.pricing h1{
+    text-align: center;
+    font-size: 40px;
+    color: #1d0d21;
+    margin-top: 10px;
+}
+.main-cart{
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fees-cart{
+    background-color: #FF5733;
+    border-radius: 20px;
+    color: white;
+    width: 26%;
+    height: 70%;  
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s ease-in;
+}
+.fees-cart:hover{
+    transform: scale(1.02);
+}
+.fees-cart h1{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.fees-cart h2{
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+.line{
+    margin: auto;
+    width: 70%;
+    border-bottom: 1px solid #a3a09f;
+    margin-bottom: 10px;
+}
+.fees-cart li{
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+}
+.price-btn{
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* background-color: #FF5733; */
+    background-color: #494545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.line-btm{
+    margin: auto;
+    margin-top: 10px;
+    width: 75vw;
+    border-bottom: 2px solid #a3a09f;
+}
+.testimonials{
+     /* background-color: #88827E; */
+     margin: auto;
+     margin-top: 10px;
+     /* border: 1px solid black; */
+     width: 96vw;
+     height: 70vh;
+     padding: 8px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.box1{
+    margin: auto;
+    padding: 5px;
+    width: 30%;
+    height: 30%;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.box1 h1{
+    margin-left: 10px;
+    color: #1d0d21;
+    font-size: 30px;
+}
+.box1 h2{
+    margin-left: 12px;
+    color: #807d7c;
+    font-size: 15px;
+}
+.box1 > p{
+    top: 60%;
+    left: 32%;
+    position: absolute;
+    color: rgb(41, 41, 192);
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.box1Img1{
+    margin-top: 20px;
+    margin-left: 8px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    width: 6%;
+    height: 15%;
+    background-image: url(https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.box1Img2{
+    top: 53%;
+    left: 8%;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 6%;
+    height: 15%;
+    background-image: url(https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.box1Img3{
+    top: 53%;
+    left: 13%;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 6%;
+    height: 15%;
+    background-image: url(https://img.freepik.com/free-photo/close-up-portrait-curly-handsome-european-male_176532-8133.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.box1Img4{
+    top: 53%;
+    left: 18%;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 6%;
+    height: 15%;
+    background-image: url(https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.box1Img5{
+    top: 53%;
+    left: 23%;
+    background-color: #88827E;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 6%;
+    height: 15%;
+    cursor: pointer;
+    
+}
+.box2{
+    background-color: #FF5733;
+    border-radius: 20px;
+    margin-right: 25px;
+    width: 45%;
+    height: 55%;
+    transition: 0.5s ease-in;
+}
+.box2:hover{
+    transform: scale(1.02);
+}
+.box2Flex{
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box2Img{
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    width: 30%;
+    height: 70%;
+    background-image: url(https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+.box2Content h1{
+    color: white;
+}
+.box2Content p{
+    color: white;
+    text-align: center;
+}
+.box2Icon{
+    color: #F6C805;
+    margin-top: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.box2para{
+    /* display: flex; */
+    margin-top: 20px;
+}
+.box2para p{
+    text-align: center;
+    color: white;
+}
+footer{
+    padding: 10px;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: #494545;
+    width: 96vw;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ftr-1{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 95%;
+}
+.ftr-1 h1{
+    margin-top: 5px;
+    font-size: 22px;
+    text-align: start;
+    color: white;
+}
+.ftr-1 p{
+    font-family: sans-serif;
+    margin-top: 8px;
+    font-size: 12px;
+    text-align: start;
+    color: white;
+}
+.ftr-icon{
+    margin-top: 20px;
+    text-align: start;  
+    
+}
+.fa-facebook:hover{
+    color: #4267B2;
+    transform: scale(1.2);
+}
+.fa-instagram:hover{
+    color: #962fbf;
+    transform: scale(1.2);
+}
+.fa-linkedin:hover{
+    color: #0A66C2;
+    transform: scale(1.2);
+}
+.fa-x-twitter:hover{
+    color: #1DA1F2;
+    transform: scale(1.2);
+}
+.fa-brands{
+    transition: 0.4s ease-in;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+.ftr-2{
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 95%;
+}
+.ftr-2 h2,.ftr-3 h2,.ftr-4 h2{
+    color: white;
+}
+.ftr-2 p,.ftr-3 p,.ftr-4 p{
+    font-family: sans-serif;
+    line-height: 45px;
+    font-size: 12px;
+    color: white;
+    margin-left: 8px;
+}
+.ftr-3{
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 95%;
+}
+.ftr-4{
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 95%;
+}
